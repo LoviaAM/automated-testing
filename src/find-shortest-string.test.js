@@ -11,5 +11,5 @@ test("findLongestString returns the earlier string in cases of joint longest str
   expect(findShortestString(["friend", "and", "some", "people", "off"])).toBe(
     "and"
   );
-  expect(finShortestString(["holiday", "mansion", "to", "go"])).toBe("go");
+  expect(findShortestString(["holiday", "mansion", "to", "go"])).toBe("to");
 });
